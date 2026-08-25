@@ -69,6 +69,10 @@ const refToolbarConfig = () => {
 				autofillprop: 'publisher',
 			},
 			{
+				field: 'date',
+				autofillprop: 'date',
+			},
+			{
 				field: 'accessdate',
 			},
 			{
@@ -118,10 +122,6 @@ const refToolbarConfig = () => {
 				field: 'doi',
 				autofillid: 'doi',
 				autofillprop: 'doi',
-			},
-			{
-				field: 'date',
-				autofillprop: 'date',
 			},
 			{
 				field: 'quote',
