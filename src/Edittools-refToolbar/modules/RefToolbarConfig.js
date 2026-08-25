@@ -169,6 +169,10 @@ const refToolbarConfig = () => {
 				autofillprop: 'date',
 			},
 			{
+				field: 'via',
+				tooltip: 'cite-via-tooltip',
+			},
+			{
 				field: 'ref',
 				tooltip: 'cite-ref-tooltip',
 			},
