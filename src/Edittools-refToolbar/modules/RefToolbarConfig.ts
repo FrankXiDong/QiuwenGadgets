@@ -73,6 +73,9 @@ const refToolbarConfig = (): void => {
 				field: 'ref',
 				tooltip: 'cite-ref-tooltip',
 			},
+			{
+				field: 'via',
+			},
 		],
 		[
 			// Expanded fields
@@ -169,6 +172,9 @@ const refToolbarConfig = (): void => {
 			{
 				field: 'ref',
 				tooltip: 'cite-ref-tooltip',
+			},
+			{
+				field: 'via',
 			},
 		],
 		[
@@ -279,6 +285,9 @@ const refToolbarConfig = (): void => {
 			{
 				field: 'ref',
 				tooltip: 'cite-ref-tooltip',
+			},
+			{
+				field: 'via',
 			},
 		],
 		[
@@ -392,6 +401,9 @@ const refToolbarConfig = (): void => {
 			{
 				field: 'ref',
 				tooltip: 'cite-ref-tooltip',
+			},
+			{
+				field: 'via',
 			},
 		],
 		[
@@ -548,6 +560,9 @@ const refToolbarConfig = (): void => {
 				field: 'accessdate',
 				tooltip: 'cite-accessdate-tooltip',
 			},
+			{
+				field: 'via',
+			},
 		],
 		[
 			// Expanded fields
@@ -637,6 +652,9 @@ const refToolbarConfig = (): void => {
 			},
 			{
 				field: 'url',
+			},
+			{
+				field: 'via',
 			},
 		],
 		[

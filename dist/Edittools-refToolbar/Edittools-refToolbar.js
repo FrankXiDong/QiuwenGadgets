@@ -208,6 +208,9 @@ var refToolbarConfig = () => {
     {
       field: "ref",
       tooltip: "cite-ref-tooltip"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -300,6 +303,9 @@ var refToolbarConfig = () => {
     {
       field: "ref",
       tooltip: "cite-ref-tooltip"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -406,6 +412,9 @@ var refToolbarConfig = () => {
     {
       field: "ref",
       tooltip: "cite-ref-tooltip"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -514,6 +523,9 @@ var refToolbarConfig = () => {
     {
       field: "ref",
       tooltip: "cite-ref-tooltip"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -664,6 +676,9 @@ var refToolbarConfig = () => {
     {
       field: "accessdate",
       tooltip: "cite-accessdate-tooltip"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -749,6 +764,9 @@ var refToolbarConfig = () => {
     },
     {
       field: "url"
+    },
+    {
+      field: "via"
     }
   ], [
     // Expanded fields
@@ -1811,6 +1829,9 @@ var refToolbarMesages = () => {
     wgUserLanguage
   } = mw.config.get();
   if (wgUserLanguage === "en") {
+    mw.messages.set({
+      "cite-via-label": "via"
+    });
     return;
   }
   if (["zh-hant", "zh-hk", "zh-mo", "zh-tw"].includes(wgUserLanguage)) {
@@ -1916,6 +1937,7 @@ var refToolbarMesages = () => {
       "cite-conferenceurl-label": "會議網址",
       "cite-booktitle-label": "論文集",
       "cite-encyclopedia-label": "百科全書名",
+      "cite-via-label": "提供者",
       "cite-authorlink-tooltip": "若該作者有條目，填寫條目名稱",
       "cite-at-tooltip": "內容在來源中的位置（當按頁碼引用不適當時）",
       "cite-accessdate-tooltip": "訪問這個引用來源時的日期",
@@ -2036,6 +2058,7 @@ var refToolbarMesages = () => {
       "cite-conferenceurl-label": "会议网址",
       "cite-booktitle-label": "论文集",
       "cite-encyclopedia-label": "百科全书名",
+      "cite-via-label": "提供者",
       "cite-authorlink-tooltip": "若该作者有条目，填写条目名称",
       "cite-at-tooltip": "内容在来源中的位置（当按页码引用不适当时）",
       "cite-accessdate-tooltip": "访问这个引用来源时的日期",
